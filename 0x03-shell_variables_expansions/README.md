@@ -212,6 +212,20 @@ ubuntu@ip-172-31-63-244:~/0x03$ ./13-print_float
 3.14
 ```
 
+### Task 14. Decimal to Hexadecimal
+
+**File:** `100-decimal_to_hexadecimal`
+
+**Description:**  
+Converts the decimal number stored in the environment variable `DECIMAL` to hexadecimal (base 16).
+
+**Example:**
+```bash
+julien@production-503e7013:~$ export DECIMAL=1337
+julien@production-503e7013:~$ ./100-decimal_to_hexadecimal
+539
+
+
 
 
 
