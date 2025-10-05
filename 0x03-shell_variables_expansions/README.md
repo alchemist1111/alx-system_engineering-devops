@@ -15,3 +15,16 @@ julien@ubuntu:/tmp/0x03$ source ./0-alias
 julien@ubuntu:/tmp/0x03$ ls
 julien@ubuntu:/tmp/0x03$ \ls
 julien@ubuntu:/tmp/0x03$
+```
+
+### Task 1. Hello you
+
+**File:** `1-hello_you`
+
+**Description:**  
+Prints `hello user`, where `user` is the current Linux user.
+
+**Example:**
+```bash
+julien@ubuntu:/tmp/0x03$ ./1-hello_you
+hello julien
