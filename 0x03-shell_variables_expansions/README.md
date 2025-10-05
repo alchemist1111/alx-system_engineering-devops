@@ -28,3 +28,20 @@ Prints `hello user`, where `user` is the current Linux user.
 ```bash
 julien@ubuntu:/tmp/0x03$ ./1-hello_you
 hello julien
+```
+
+### 2. The path to success is to take massive, determined action
+
+**File:** `2-path`
+
+**Description:**  
+Adds `/action` to the end of the `PATH` environment variable.
+
+**Example:**
+```bash
+julien@ubuntu:/tmp/0x03$ echo $PATH
+/home/julien/bin:/home/julien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+julien@ubuntu:/tmp/0x03$ source ./2-path
+julien@ubuntu:/tmp/0x03$ echo $PATH
+/home/julien/bin:/home/julien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/action
+```
