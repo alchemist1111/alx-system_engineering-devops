@@ -136,6 +136,22 @@ Prints the result of adding 128 to the value of the environment variable `TRUEKN
 julien@production-503e7013:~$ export TRUEKNOWLEDGE=1209
 julien@production-503e7013:~$ ./8-true_knowledge | cat -e
 1337$
+```
+
+### Task 9. Divide and rule
+
+**File:** `9-divide_and_rule`
+
+**Description:**  
+Prints the result of dividing the value of `POWER` by the value of `DIVIDE`, followed by a new line.
+
+**Example:**
+```bash
+julien@production-503e7013:~$ export POWER=42784
+julien@production-503e7013:~$ export DIVIDE=32
+julien@production-503e7013:~$ ./9-divide_and_rule | cat -e
+1337$
+
 
 
 
