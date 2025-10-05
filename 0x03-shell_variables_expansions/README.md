@@ -151,6 +151,22 @@ julien@production-503e7013:~$ export POWER=42784
 julien@production-503e7013:~$ export DIVIDE=32
 julien@production-503e7013:~$ ./9-divide_and_rule | cat -e
 1337$
+```
+
+### Task 10. Love is anterior to life, posterior to death, initial of creation, and the exponent of breath
+
+**File:** `10-love_exponent_breath`
+
+**Description:**  
+Displays the result of raising the value of `BREATH` to the power of `LOVE`.
+
+**Example:**
+```bash
+julien@production-503e7013:~$ export BREATH=4
+julien@production-503e7013:~$ export LOVE=3
+julien@production-503e7013:~$ ./10-love_exponent_breath
+64
+```
 
 
 
