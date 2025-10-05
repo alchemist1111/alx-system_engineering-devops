@@ -168,6 +168,21 @@ julien@production-503e7013:~$ ./10-love_exponent_breath
 64
 ```
 
+### Task 11. There are 10 types of people in the world -- Those who understand binary, and those who don't
+
+**File:** `11-binary_to_decimal`
+
+**Description:**  
+Converts a number stored in the environment variable `BINARY` from base 2 (binary) to base 10 (decimal).
+
+**Example:**
+```bash
+julien@production-503e7013:~$ export BINARY=10100111001
+julien@production-503e7013:~$ ./11-binary_to_decimal
+1337
+```
+
+
 
 
 
