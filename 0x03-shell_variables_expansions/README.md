@@ -122,6 +122,21 @@ julien@ubuntu:/tmp/0x03$ echo $BEST
 School
 julien@ubuntu:/tmp/0x03$ bash -c 'echo $BEST'
 School
+```
+
+### Task 8. Every addition to true knowledge is an addition to human power
+
+**File:** `8-true_knowledge`
+
+**Description:**  
+Prints the result of adding 128 to the value of the environment variable `TRUEKNOWLEDGE`.
+
+**Example:**
+```bash
+julien@production-503e7013:~$ export TRUEKNOWLEDGE=1209
+julien@production-503e7013:~$ ./8-true_knowledge | cat -e
+1337$
+
 
 
 
