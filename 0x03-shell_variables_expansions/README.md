@@ -182,6 +182,22 @@ julien@production-503e7013:~$ ./11-binary_to_decimal
 1337
 ```
 
+### Task 12. Combination
+
+**File:** `12-combinations`
+
+**Description:**  
+Prints all possible combinations of two lowercase letters, excluding `oo`.  
+Output is in alphabetical order, one combination per line.
+
+**Example:**
+```bash
+julien@ubuntu:/tmp/0x03$ ./12-combinations | wc -l
+675
+julien@ubuntu:/tmp/0x03$ ./12-combinations | grep oo
+# (no output)
+
+
 
 
 
