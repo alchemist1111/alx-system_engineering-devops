@@ -196,6 +196,21 @@ julien@ubuntu:/tmp/0x03$ ./12-combinations | wc -l
 675
 julien@ubuntu:/tmp/0x03$ ./12-combinations | grep oo
 # (no output)
+```
+
+### 13. Floats
+
+**File:** `13-print_float`
+
+**Description:**  
+Prints the number stored in the environment variable `NUM` with two decimal places.
+
+**Example:**
+```bash
+ubuntu@ip-172-31-63-244:~/0x03$ export NUM=3.14159265359
+ubuntu@ip-172-31-63-244:~/0x03$ ./13-print_float
+3.14
+```
 
 
 
