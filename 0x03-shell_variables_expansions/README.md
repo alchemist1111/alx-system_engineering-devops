@@ -92,5 +92,19 @@ BASHOPTS=checkwinsize:cmdhist:complete_fullquote:expand_aliases:extglob:extquote
 BASH_ALIASES=()
 BASH_ARGC=()
 BASH_ARGV=()
-...
+```
+
+### Task 6. Local variable
+
+**File:** `6-create_local_variable`
+
+**Description:**  
+Creates a new local variable named `BEST` with the value `School`.
+
+**Example:**
+```bash
+julien@ubuntu:/tmp/0x03$ source ./6-create_local_variable
+julien@ubuntu:/tmp/0x03$ echo $BEST
+School
+
 
