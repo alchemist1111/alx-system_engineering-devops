@@ -60,3 +60,37 @@ julien@ubuntu:/tmp/0x03$ echo $PATH
 julien@ubuntu:/tmp/0x03$ source ./3-paths
 11
 ```
+
+### Task 4. Global variables
+
+**File:** `4-global_variables`
+
+**Description:**  
+Displays all environment variables currently defined in the shell.
+
+**Example:**
+```bash
+julien@ubuntu:/tmp/0x03$ source ./4-global_variables
+CC=gcc
+HOME=/nethome/franky
+LANG=en_US
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+```
+
+### Task 5. Local variables
+
+**File:** `5-local_variables`
+
+**Description:**  
+Lists all local variables, environment variables, and functions.
+
+**Example:**
+```bash
+julien@ubuntu:/tmp/0x03$ source ./5-local_variables
+BASH=/bin/bash
+BASHOPTS=checkwinsize:cmdhist:complete_fullquote:expand_aliases:extglob:extquote:force_fignore:histappend:interactive_comments:progcomp:promptvars:sourcepath
+BASH_ALIASES=()
+BASH_ARGC=()
+BASH_ARGV=()
+...
+
