@@ -106,5 +106,22 @@ Creates a new local variable named `BEST` with the value `School`.
 julien@ubuntu:/tmp/0x03$ source ./6-create_local_variable
 julien@ubuntu:/tmp/0x03$ echo $BEST
 School
+```
+
+### Task 7. Global variable
+
+**File:** `7-create_global_variable`
+
+**Description:**  
+Creates a new global variable named `BEST` with the value `School`.
+
+**Example:**
+```bash
+julien@ubuntu:/tmp/0x03$ source ./7-create_global_variable
+julien@ubuntu:/tmp/0x03$ echo $BEST
+School
+julien@ubuntu:/tmp/0x03$ bash -c 'echo $BEST'
+School
+
 
 
